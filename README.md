@@ -2,7 +2,9 @@
 🔍 SPYSHARE 🔍
 =========================
 
-A tiny tool for visualising sharing between Haskell data structures
+**A tiny tool for visualising sharing between Haskell data structures.**
+
+**Example:** In the screenshot below, a persistent base list (list0) shares data with its tail (list1) and a new list which prepends to the base list (list2). Note that append (++) shares (list3) but concat does not (list4).)
 
 ![An example sharing graph and code](screenshots/spyshare01.png)
 
