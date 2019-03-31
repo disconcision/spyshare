@@ -9,7 +9,7 @@
 ![An example sharing graph and code](screenshots/spyshare01.png)
 
 
-### 🔍 Graphvis and StableNames unveil shared structure
+### 🔍 Graphvis and StableNames expose shared structure
 
 Spyshare generates a graph-based visualization of composite data structures in Haskell. It uses StableName (and hence unsafePerformIO) to track actual memory locations, and can thus be used to visualize substructural sharing, as in the above screenshot. Out of the box, spyshare works only on lists, but it is rudimentarily abstractble (via its MemMappable typeclass) to permit easy extension to some ADTs, like the binary trees below:
 
