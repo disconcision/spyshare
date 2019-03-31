@@ -19,7 +19,7 @@ I made this as a personal utility when I was doing research on variational data 
 
 ### 🔍 Installation and Usage Instructions
 
-- Requires Graphvis, StableName
-- Import SpyShare and call showGraph on a list of pairs where the first elements are labels (Strings) and the second elements are identifiers representing the structures to be visualized.
+- Install [Graphvis](https://graphviz.gitlab.io/download/) and clone this repository
+- Import SpyShare and call showGraph on a list of pairs where the first elements are labels (Strings) and the second elements are identifiers indicating the data to be visualized
 - A png-format image will be created in the working directory. In linux, the image will open automatically, provided there's an application installed which can handle PNGs
 - Untamed unsafeness warning: keep programs simple to avoid confusing results
