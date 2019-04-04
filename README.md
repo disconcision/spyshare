@@ -15,7 +15,7 @@ Spyshare generates a graph-based visualization of composite data structures in H
 
 ![an example with a custom binary tree ADT](screenshots/spyshare02.png)
 
-I made this as a personal utility when I was doing research on variational data structures with Ramy Shanin. It's barebones, but could likely be straightforwardly extended into a useful didactic tool
+I made this as a personal utility when I was doing research on variational data structures with Ramy Shahin. It's barebones, but could likely be straightforwardly extended into a useful didactic tool
 
 ### 🔍 Installation and Usage Instructions
 
